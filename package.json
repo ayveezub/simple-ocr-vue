@@ -6,7 +6,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src"
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "pinia": "^2.0.13",
@@ -18,6 +20,7 @@
     "eslint-plugin-vue": "^8.5.0",
     "pug": "^3.0.2",
     "sugarss": "^4.0.1",
-    "vite": "^2.9.0"
+    "vite": "^2.9.0",
+    "vitest": "^0.9.3"
   }
 }
